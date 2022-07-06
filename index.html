@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktine uzduotis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <h3>Business</h3>
+    <!-- Button  -->
+<button onclick="document.getElementById('id01').style.display='block'">Sign In</button>
+
+<!-- Sign up form -->
+<div id="id01" class="sign">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Sign">X</span>
+  <form class="sign-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign In</h1>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+        <button type="submit" class="signup">Sign In</button>
+  </form>
+</div>
+</nav>
+
+<main>
+    <p class="main_p">Build a landing page for your business or project and generate more leads!<br>
+    <input class= "main_email" type="text" placeholder="Enter your email..." name="email" required>
+    <button onclick="document.getElementById('id01').style.display='block'">Sign In</button>
+    <p>
+</main>
+
+<section>
+    <div><h2>Fully Responsive</h2><p>This theme will look great on any device, no matter the size!</p></div>
+    <div><h2>Bootstrap 4 Ready</h2><p>Featuring the latest build of the new Bootstrap 4 framework!</p></div>
+    <div><h2>Easy to Use</h2><p>Ready to use with your own content, or customize the source files!</p></div>
+</section>
+
+<section class="section2">
+    <div class="div1"><h2>Fully Responsive Design</h2><article>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or dekstop the page will behave responsively!</article></div>
+    <div class="fill"></div>
+</section>
+<section class="section2">
+    <div class="fill2"></div>
+    <div class="div1"><h2>Updated For Bootstrap 4</h2><article>Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</article></div>
+</section>
+<section class="section2">
+    <div class="div1"><h2>Easy to Use & Customize</h2><article>Landing Page is just HTML and CSS with splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</article></div>
+    <div class="fill3"></div>
+</section>
+
+<aside>
+    <div class="avatar1"><div class="name"><h4>Margaret E.</h4></div><article>"This is fantastic! Thanks so much guys!"</article></div>
+    <div class="avatar2"><div class="name"><h4>Fred S.</h4></div><article>"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</article></div>
+    <div class="avatar3"><div class="name"><h4>Sarah W.</h4></div><article>"Thanks so much for making these free resources available to us!"</article></div>
+</aside>
+<main>
+    <p class="main_p">Ready to get started? Sign up now!<br>
+    <input class= "main_email" type="text" placeholder="Enter your email..." name="email" required>
+    <button onclick="document.getElementById('id01').style.display='block'">Sign Up!</button>
+    <p>
+</main>
+
+    <script src="script.js"></script>
+</body>
+</html>
